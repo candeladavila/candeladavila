@@ -19,6 +19,7 @@ I am especially interested in projects where software engineering meets applied 
 * 📫 You can contact me via email or LinkedIn.
 
 ## 🛠️ Skills
+Aquí lo tienes con **Swift** añadido en `Programming Languages`:
 
 ### Programming Languages
 
@@ -32,6 +33,7 @@ I am especially interested in projects where software engineering meets applied 
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge\&logo=cplusplus\&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-FF8000?style=for-the-badge\&logo=mathworks\&logoColor=white)
 ![Scala](https://img.shields.io/badge/Scala-DC322F?style=for-the-badge\&logo=scala\&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge\&logo=swift\&logoColor=white)
 
 ### Frameworks & Technologies
 
@@ -93,6 +95,18 @@ An ongoing research project focused on the analysis of multiple sclerosis using 
 The project involves image processing, deep learning models and experimentation with neural network architectures to support the analysis of medical imaging data.
 
 **Technologies:** Python, PyTorch, OpenCV, neural networks, computer vision
+
+---
+
+### iOS Task Management Application
+
+A mobile to-do list application for iOS focused on helping users manage and track their tasks efficiently.
+
+The application includes user authentication, allowing tasks to be stored and synchronized across devices. Users can create tasks with titles and due dates, update their completion status, and delete tasks when necessary.
+
+The project is designed with future scalability in mind, including planned features such as custom task categories, color-coded organization, a dedicated completed-tasks section, Google account sign-in and customizable user profiles.
+
+**Technologies:** iOS development, authentication, mobile development, task management
 
 ## 🌎 Languages
 
