@@ -1,6 +1,6 @@
 # Hey! I'm Candela 👋
 
-[LinkedIn](YOUR_LINKEDIN_URL) • [Portfolio](YOUR_PORTFOLIO_URL) • [Email](mailto:YOUR_EMAIL)
+[LinkedIn](https://www.linkedin.com/in/candeladavila/) • [Email](mailto:candeladavila05@gmail.com)
 
 ## 🌟 About Me
 
