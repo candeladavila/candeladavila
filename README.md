@@ -1,12 +1,12 @@
 # Hey! I'm Candela 👋
 
-[LinkedIn](https://www.linkedin.com/in/candeladavila/) • [Email](mailto:candeladavila05@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/candeladavila/) • [Email](mailto:candeladavila05@gmail.com) • [GitHub](https://github.com/candeladavila)
 
 ## 🌟 About Me
 
-I am a Software Engineering student at the University of Málaga, with a strong interest in artificial intelligence, computer vision and full-stack development.
+I am a Software Engineering student at the University of Málaga, with a strong interest in artificial intelligence, computer vision, full-stack development and applied AI systems.
 
-Throughout my academic journey, I have worked on projects that combine software design, backend and frontend development, database management, image processing and intelligent systems. I enjoy learning new technologies, building practical applications and facing challenges that allow me to grow as a software engineer.
+Throughout my academic journey, I have worked on projects that combine software design, backend and frontend development, database management, image processing, intelligent systems and retrieval-augmented generation. I enjoy learning new technologies, building practical applications and facing challenges that allow me to grow as a software engineer.
 
 I am especially interested in projects where software engineering meets applied artificial intelligence, creating solutions that are not only functional, but also meaningful and useful in real-world scenarios.
 
@@ -14,12 +14,12 @@ I am especially interested in projects where software engineering meets applied 
 
 * Learning and working on projects related to Artificial Intelligence, Computer Vision, Full-Stack Development and Software Architecture.
 * Developing research-oriented projects using neural networks, image processing and deep learning techniques.
-* Improving my skills in backend development, frontend interfaces and applied AI systems.
+* Building applied AI systems using RAG, vector databases, embeddings and large language models.
+* Improving my skills in backend development, frontend interfaces, API design and AI-powered applications.
 * Building academic and personal projects to strengthen my software engineering profile.
 * 📫 You can contact me via email or LinkedIn.
 
 ## 🛠️ Skills
-Aquí lo tienes con **Swift** añadido en `Programming Languages`:
 
 ### Programming Languages
 
@@ -38,15 +38,19 @@ Aquí lo tienes con **Swift** añadido en `Programming Languages`:
 ### Frameworks & Technologies
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge\&logo=springboot\&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge\&logo=vite\&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge\&logo=langchain\&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge\&logo=googlegemini\&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge\&logo=huggingface\&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge\&logo=opencv\&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
 
-### Databases
+### Databases & Data Tools
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql\&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
@@ -54,6 +58,7 @@ Aquí lo tienes con **Swift** añadido en `Programming Languages`:
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge\&logo=supabase\&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge\&logo=mongodb\&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge\&logo=redis\&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge\&logo=qdrant\&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge\&logo=apachespark\&logoColor=white)
 
 ### Other Tools
@@ -65,6 +70,18 @@ Aquí lo tienes con **Swift** añadido en `Programming Languages`:
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
 
 ## 💡 Featured Projects
+
+### Custom Document Chat — RAG System with PDF Uploads
+
+A full-stack Retrieval-Augmented Generation application that allows users to upload PDF documents and ask questions about their content through a custom chat interface.
+
+The system processes uploaded PDFs, extracts their text, splits the content into chunks with metadata, generates embeddings, stores them in Qdrant and retrieves the most relevant fragments when a user asks a question. The selected context is then sent to Gemini to generate an answer with document sources.
+
+The application includes a React frontend with a chat interface, PDF upload, document selection through checkboxes, loading states and source display. The backend is built with FastAPI and manages the complete RAG pipeline locally.
+
+**Technologies:** Python, FastAPI, React, Vite, JavaScript, LangChain, Qdrant, Gemini API, Hugging Face, sentence-transformers, RAG, embeddings, vector databases
+
+---
 
 ### Kintsugi
 
@@ -106,7 +123,7 @@ The application includes user authentication, allowing tasks to be stored and sy
 
 The project is designed with future scalability in mind, including planned features such as custom task categories, color-coded organization, a dedicated completed-tasks section, Google account sign-in and customizable user profiles.
 
-**Technologies:** iOS development, authentication, mobile development, task management
+**Technologies:** Swift, iOS development, authentication, mobile development, task management
 
 ## 🌎 Languages
 
@@ -116,6 +133,6 @@ The project is designed with future scalability in mind, including planned featu
 
 ## 🚀 Goals
 
-I am especially interested in projects related to software engineering, artificial intelligence, computer vision and full-stack development.
+I am especially interested in projects related to software engineering, artificial intelligence, computer vision, full-stack development and applied AI systems.
 
-My goal is to keep growing as a software engineer by working on challenging projects that combine solid software design, practical development and emerging technologies.
+My goal is to keep growing as a software engineer by working on challenging projects that combine solid software design, practical development and emerging technologies. I am particularly motivated by projects involving intelligent applications, RAG systems, computer vision, neural networks, scalable backend services and user-friendly frontend interfaces.
