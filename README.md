@@ -95,6 +95,8 @@ According to the project’s router evaluation, the cascade achieved **97.4% rou
 
 **Technologies:** Python, FastAPI, React, Vite, Flask, SQLite, Docker Compose, Ollama, Groq, LiteLLM, LangChain, Qdrant, sentence-transformers, embeddings, KNN, RAG, SQL, EWMA and Pytest
 
+---
+
 ### Custom Document Chat — RAG System with PDF Uploads
 
 A full-stack Retrieval-Augmented Generation application that allows users to upload PDF documents and ask questions about their content through a custom chat interface.
@@ -104,7 +106,6 @@ The system processes uploaded PDFs, extracts their text, splits the content into
 The application includes a React frontend with a chat interface, PDF upload, document selection through checkboxes, loading states and source display. The backend is built with FastAPI and manages the complete RAG pipeline locally.
 
 **Technologies:** Python, FastAPI, React, Vite, JavaScript, LangChain, Qdrant, Gemini API, Hugging Face, sentence-transformers, RAG, embeddings, vector databases
-
 
 ---
 
