@@ -4,11 +4,13 @@
 
 ## 🌟 About Me
 
-I am a Software Engineering student at the University of Málaga, with a strong interest in artificial intelligence, computer vision, full-stack development and applied AI systems.
+I am a Software Engineering student at the University of Málaga, interested in artificial intelligence, computer vision, full-stack development and the design of production-oriented AI systems.
 
-Throughout my academic journey, I have worked on projects that combine software design, backend and frontend development, database management, image processing, intelligent systems and retrieval-augmented generation. I enjoy learning new technologies, building practical applications and facing challenges that allow me to grow as a software engineer.
+I enjoy building end-to-end applications that combine software architecture, backend services, frontend interfaces, databases and machine learning. My projects include generative AI cost-management platforms, retrieval-augmented generation systems, computer vision applications and research involving neural networks for medical imaging.
 
-I am especially interested in projects where software engineering meets applied artificial intelligence, creating solutions that are not only functional, but also meaningful and useful in real-world scenarios.
+In 2026, I was part of the team that achieved **second place in the Mercedes-Benz “We Code the Future” Hackathon**, where we developed an AI FinOps proxy designed to optimize the cost, governance and observability of generative AI usage.
+
+I am especially interested in projects where software engineering meets applied artificial intelligence: systems that are technically solid, measurable, scalable and useful in real-world environments.
 
 ## 🔍 Currently
 
@@ -70,6 +72,28 @@ I am especially interested in projects where software engineering meets applied 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
 
 ## 💡 Featured Projects
+
+### 🥈 AI FinOps Proxy — Mercedes-Benz “We Code the Future” Hackathon 2026
+
+A generative AI cost-control platform that achieved **second place in the Mercedes-Benz “We Code the Future” Hackathon 2026**.
+
+The system acts as an intelligent proxy between internal consumers and AI providers. It analyzes each prompt and routes it to the most cost-efficient model capable of completing the task, while considering its complexity, privacy requirements and the available team budget.
+
+Its semantic router uses a three-layer cascade:
+
+1. A zero-cost rule-based classifier that evaluates seven prompt dimensions.
+2. An embeddings and K-nearest neighbors layer for ambiguous requests.
+3. A safe fallback layer for prompts that remain uncertain.
+
+The platform tracks token usage, derives costs dynamically from model prices through SQL views, manages configurable budgets for each team and generates alerts when 80% of a budget is reached. Requests are automatically blocked with an HTTP 429 response when the budget reaches 100%.
+
+It also includes PII detection to prevent sensitive information from being sent to cloud providers, budget-aware model degradation, complete auditing, monthly expenditure forecasting using an EWMA-based model and a real-time analytics dashboard.
+
+An integrated AI assistant combines live SQL metrics with a document-based RAG pipeline to answer questions about spending, risks, forecasts and audit events.
+
+According to the project’s router evaluation, the cascade achieved **97.4% routing accuracy**, while **79.5% of the evaluated prompts were resolved by the zero-cost rule-based classification layer**.
+
+**Technologies:** Python, FastAPI, React, Vite, Flask, SQLite, Docker Compose, Ollama, Groq, LiteLLM, LangChain, Qdrant, sentence-transformers, embeddings, KNN, RAG, SQL, EWMA and Pytest
 
 ### Custom Document Chat — RAG System with PDF Uploads
 
