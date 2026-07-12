@@ -105,7 +105,9 @@ The application includes a React frontend with a chat interface, PDF upload, doc
 
 **Technologies:** Python, FastAPI, React, Vite, JavaScript, LangChain, Qdrant, Gemini API, Hugging Face, sentence-transformers, RAG, embeddings, vector databases
 
+
 ---
+
 
 ### Kintsugi
 
