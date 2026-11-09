@@ -10,6 +10,10 @@ I enjoy building end-to-end applications that combine software architecture, bac
 
 In 2026, I was part of the team that achieved **second place in the Mercedes-Benz “We Code the Future” Hackathon**, where we developed an AI FinOps proxy designed to optimize the cost, governance and observability of generative AI usage.
 
+In 2026, my team achieved **first place in the NTT DATA challenge at Malackathon**. Our project explored how to verify AI-generated answers against source documents, making it easier to see which claims are supported, contradicted or not verifiable.
+
+I also contributed to **[SheReady](https://github.com/candeladavila/SheReady)**, which achieved **second place at the Yes We Tech Hackathon**. SheReady helps women prepare for job interviews through role-specific practice, voice-enabled mock interviews, personalized activities and progress tracking.
+
 I am especially interested in projects where software engineering meets applied artificial intelligence: systems that are technically solid, measurable, scalable and useful in real-world environments.
 
 ## 🔍 Currently
@@ -72,6 +76,28 @@ I am especially interested in projects where software engineering meets applied 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
 
 ## 💡 Featured Projects
+
+### 🥇 Evidence-based AI Answer Verification — Malackathon 2026 · NTT DATA Challenge
+
+**First place in the NTT DATA challenge at Malackathon 2026.**
+
+Our team designed an evidence-first workflow for checking AI-generated answers against user-provided documents. Users add source material, provide the prompt and response, then review which claims the evidence supports, contradicts or cannot verify. The goal is to make evidence visible and encourage critical evaluation of AI answers.
+
+**Frontend technologies:** React, TypeScript, Vite, React Aria, i18next and Motion.
+
+---
+
+### 🥈 SheReady — Yes We Tech Hackathon
+
+**Second place at the Yes We Tech Hackathon.**
+
+SheReady is an interview-preparation platform for women. It combines personalized practice plans for a target role, mock interviews with voice and text responses, constructive AI feedback, confidence-building activities and progress tracking. The app is built for web and mobile, with an Expo/React Native frontend and a FastAPI backend.
+
+**Technologies:** React Native, Expo, TypeScript, FastAPI, PostgreSQL and Groq.
+
+[Explore the public repository](https://github.com/candeladavila/SheReady).
+
+---
 
 ### 🥈 AI FinOps Proxy — Mercedes-Benz “We Code the Future” Hackathon 2026
 
